@@ -2,3 +2,12 @@
     width: 300px;
     height: 300px;
 }
+
+.webPageColor {
+    background-color: #F3E9DD;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.banner1Color {
+    background: #B7CADB;
+}
