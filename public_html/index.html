@@ -110,7 +110,8 @@
     <div class="row g-5">
         <h1 class="text-start"><strong>Get in touch...</strong></h1>
         <div class="col-md-6 pt-3 container-fluid  border border-dark border-2 rounded">
-            <form>
+
+            <form action="./apis/" id="contact" method="post" novalidate>
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control banner1Color border border-dark border-2" placeholder="name"
                         id="name" name="name">
@@ -127,7 +128,7 @@
                     <label class="form-label" for="subject">Subject: </label>
                 </div>
                 <div class="form-floating mb-3">
-                    <textarea type="text" class="form-control banner1Color border border-dark border-2" id="message"
+                    <textarea class="form-control banner1Color border border-dark border-2" id="message"
                               placeholder="Message Me" name="message" style="height: 200px"></textarea>
                     <label for="message" class="form-label">Message: </label>
                 </div>
@@ -135,6 +136,7 @@
                     <button type="submit" class="btn btn-light border border-dark border-2">Send</button>
                 </div>
             </form>
+            <div id="output-area"></div>
             <div class="col-md-9 container-fluid mt-md-3">
                 <i class="bi bi-instagram mx-4" style="font-size: 2rem"></i>
                 <i class="bi bi-github mx-4" style="font-size: 2rem"></i>
@@ -174,6 +176,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"
         integrity="sha512-XZEy8UQ9rngkxQVugAdOuBRDmJ5N4vCuNXCh8KlniZgDKTvf7zl75QBtaVG1lEhMFe2a2DuA22nZYY+qsI2/xA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- jquery script -->
+<script src="./js/script.js"></script>
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 <!--
