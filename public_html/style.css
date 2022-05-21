@@ -19,3 +19,16 @@
 .iconResize {
     font-size: 2rem;
 }
+
+.iconColor {
+    color: #15133C;
+}
+
+.iconColor2 {
+    color: black;
+}
+
+/* Remove underline for anchors tag*/
+a {
+    text-decoration: none;
+}
