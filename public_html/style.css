@@ -40,3 +40,10 @@ a {
 .navBarTextColor a:hover {
     color: black;
 }
+
+.buttonColor button:hover {
+    color: white;
+    background: #1CB297;
+
+}
+
