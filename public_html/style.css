@@ -34,5 +34,9 @@ a {
 }
 
 .socialIcons i:hover {
-    color: blue;
+    color: #29d1b3;
+}
+
+.navBarTextColor a:hover {
+    color: black;
 }
