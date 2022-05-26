@@ -5,12 +5,28 @@
 
 .webPageColor {
     background-color: #F3E9DD;
-    font: italic small-caps bold 16px/2 cursive;
 }
 
 .webPageColor2 {
     background-color: #F3E9DD;
     font: italic small-caps bold 1.2em "Fira Sans", sans-serif;
+}
+
+.webPageFont {
+    font-family: 'Kalam', cursive;
+}
+
+
+h1 {
+    font-size: 380%;
+}
+
+p {
+    font-size: 120%;
+}
+
+.textJustify {
+    text-align: justify;
 }
 
 .banner1Color {
@@ -19,6 +35,14 @@
 
 .bannerFontColor {
     color: #15133C;
+}
+
+.paraColor1 {
+    color: #0066CC;
+}
+
+.paraColor2 {
+    color: #1FA3F5;
 }
 
 .iconResize {
@@ -39,7 +63,7 @@ a {
 }
 
 .socialIcons i:hover {
-    color: #29d1b3;
+    color: #1CB297;
 }
 
 .navBarTextColor a:hover {
