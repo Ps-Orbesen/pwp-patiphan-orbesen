@@ -51,3 +51,12 @@ a {
     background: #1CB297;
 
 }
+
+
+.textAreaHeight {
+    height: 100%;
+}
+
+#textSpaceHeight {
+    height: 200px;
+}
