@@ -8,6 +8,11 @@
     font: italic small-caps bold 16px/2 cursive;
 }
 
+.webPageColor2 {
+    background-color: #F3E9DD;
+    font: italic small-caps bold 1.2em "Fira Sans", sans-serif;
+}
+
 .banner1Color {
     background: #FDF6EC;
 }
